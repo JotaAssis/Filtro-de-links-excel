@@ -58,7 +58,7 @@ def process_videos(input_file, output_file):
     print("Processo concluído! Resultados salvos em:", output_file)
 
 if __name__ == "__main__":
-    input_excel = "data/videos.xlsx"
+    input_excel = "data/saida.xlsx"
     output_excel = "data/resultado.xlsx"
     
     os.makedirs("models", exist_ok=True)
